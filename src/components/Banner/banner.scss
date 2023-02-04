@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background: url(../../assets/images/banner/anh-dep-56.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    &__title {
+        font-size: 1    rem;
+        font-weight: 700;
+    }
+}
